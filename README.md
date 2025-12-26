@@ -16,6 +16,9 @@ A decentralized autonomous organization (DAO) designed for genomic research. Gen
 
 ## ⚙️ Tech Stack
 
+  * **Frontend & Framework:** Next.js (MERN Stack)
+  * **Styling:** Tailwind CSS
+  * **Language:** TypeScript
   * **Blockchain/Smart Contracts:** Solana + Anchor
   * **Vector Database:** Weaviate
   * **Local Data Caching:** LanceDB
