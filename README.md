@@ -61,12 +61,3 @@ Interact with the DAO by using the CLI tools provided in the `cli/` directory to
 
 -----
 
-## 🤝 Contributing
-
-We welcome contributions from developers, researchers, and data privacy advocates. Please read our [CONTRIBUTING.md](https://www.google.com/search?q=https://github.com/saadsalmanakram/GeneLedger-DAO/blob/main/CONTRIBUTING.md) for details on how to get started.
-
------
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](https://www.google.com/search?q=https://github.com/saadsalmanakram/GeneLedger-DAO/blob/main/LICENSE) file for more details.
