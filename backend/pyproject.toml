@@ -1,0 +1,14 @@
+[project]
+name = "vanguard-breach"
+version = "1.0.0"
+description = "Autonomous GenAI red-teaming platform: hierarchical adversarial RAG + multi-agent reasoning against enterprise LLM deployments."
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"

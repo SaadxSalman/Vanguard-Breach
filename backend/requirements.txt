@@ -1,0 +1,16 @@
+# Vanguard-Breach backend — core runtime (Python 3.12+, tested on 3.14)
+fastapi>=0.115
+uvicorn[standard]>=0.30
+httpx>=0.27
+pydantic>=2.9
+websockets>=12
+python-multipart>=0.0.9        # file uploads into the knowledge base
+
+# Dev / test
+pytest>=8.0
+
+# ── OPTIONAL accelerators & integrations (the platform runs fine without them) ─
+# numpy>=2.0                    # ~10-40x faster local cosine search
+# langgraph>=0.2                # upstream graph runtime (native engine is default)
+# qdrant-client>=1.9            # richer Qdrant admin ops (REST adapter works without it)
+# pymilvus>=2.4                 # richer Milvus admin ops (REST adapter works without it)

@@ -1,0 +1,1 @@
+"""Vanguard-Breach core package."""

@@ -1,0 +1,40 @@
+# ── Vanguard-Breach .gitignore ────────────────────────────────────────────────
+# NEVER commit secrets — the master .env holds every key for every service.
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Runtime data (SQLite DB, reports, artifacts, uploaded corpora)
+data/
+*.db
+*.sqlite3
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+*.local
+
+# Docker / compose overrides
+docker-compose.override.yml
+
+# OS / editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+.idea/
+.vscode/*
+!.vscode/extensions.json
