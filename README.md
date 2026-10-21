@@ -713,4 +713,4 @@ backend's SPA fallback, so deep links work when served from the backend.
 - `GET /api/health` — instant liveness check (does not start the DB) — **the SPA fallback
   is the only route the server guards with a `/`**; all others return 404 before routing.
 
---
+---
