@@ -677,7 +677,7 @@ backend's SPA fallback, so deep links work when served from the backend.
 | POST | `/api/targets/probe` | send any message to any target |
 | POST | `/api/targets/reset` | reset a target |
 
-### Knowledge bas
+### Knowledge base
 
 | Method | Path | Purpose |
 |---|---|---|
