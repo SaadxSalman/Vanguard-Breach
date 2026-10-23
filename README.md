@@ -388,7 +388,7 @@ adversarial knowledge base, and serves:
 - API docs → <http://127.0.0.1:8000/docs>
 - Health → <http://127.0.0.1:8000/api/health>
 
-### 2 · Frontend consol
+### 2 · Frontend console
 
 ```powershell
 cd frontend
