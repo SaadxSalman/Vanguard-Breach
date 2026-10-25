@@ -250,7 +250,7 @@ composable and deterministic per campaign seed:
 | **encoding** | `base64`, `rot13`, `reverse`, `urlencode`, `quoted_printable`, `json_escape` | keyword/WAF signature matching pre-decode |
 | **unicode** | `zwsp` (zero-width interleaving), `homoglyph` (Cyrillic а/е/о…), `fullwidth` | blocklists that never normalize; visual review |
 | **structural** | `markdown_smuggle`, `comment_hide`, `split_lines`, `acrostic`, `polyglot`, `csv_cell` | filters that don't parse markdown/HTML/CSV context |
-| **perturbation** | `whitespace`, `typo`, `leetspeak` | exact-token rules and human review |
+| **pertubation** | `whitespace`, `typo`, `leetspeak` | exact-token rules and human review |
 
 `obfuscation_score(text)` is exported for guardrail research — the hardened sandbox target
 uses a keyword filter on *raw* text while the simulated model reads *normalized* text;
