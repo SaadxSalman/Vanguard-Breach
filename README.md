@@ -240,7 +240,7 @@ in-memory cache and payload filters; NumPy auto-accelerates if installed), `qdra
 
 ---
 
-## 🧬 The Mutation Engin
+## 🧬 The Mutation Engine
 
 `backend/app/core/mutations/engine.py` — every mutator is `f(text, rng) -> text`, chains are
 composable and deterministic per campaign seed:
