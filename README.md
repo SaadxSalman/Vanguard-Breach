@@ -215,7 +215,7 @@ installable on any Python 3.12+ box with `pip install fastapi uvicorn httpx`.
 
 ---
 
-## 📚 Adversarial Knowledge RAG Laye
+## 📚 Adversarial Knowledge RAG Layer
 
 Collections (all queryable at `POST /api/knowledge/search`):
 
