@@ -213,7 +213,7 @@ entry/finish points, compiled execution with `RunTrace` (per-node status + durat
 async-aware node invocation and a `max_steps` loop guard. It keeps Vanguard-Breach
 installable on any Python 3.12+ box with `pip install fastapi uvicorn httpx`.
 
----
+--
 
 ## 📚 Adversarial Knowledge RAG Layer
 
